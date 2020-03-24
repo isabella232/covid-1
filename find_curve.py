@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 POST_LEN = 8
-MAX_CURVES = 5
+MAX_CURVES = 10
 
 def plot(target_curve, other_curves, num_points, county):
     # Make a data frame
