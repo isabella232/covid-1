@@ -5,4 +5,4 @@ ls data/*|cut -d "/" -f 2|sort -n|cut -d "." -f 1|tail -n 20|xargs -I % python f
 ```
 
 
-[image](plot/1234_nassau_county_NY.png)
+![image](plot/1234_nassau_county_NY.png)
