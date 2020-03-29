@@ -14,7 +14,7 @@ ls data/*|cut -d "/" -f 2|sort -n|cut -d "." -f 1|tail -n 20|xargs -I % python f
 cd plot
 ls |sort -n -r |grep png|xargs -I % echo '![image](plot/%)' >> ../README.md 
 ```
-![image](plot/india.png)
+![image](india.png)
 ![image](plot/8115_new_york_city_NY.png)
 ![image](plot/1385_westchester_county_NY.png)
 ![image](plot/1234_nassau_county_NY.png)
