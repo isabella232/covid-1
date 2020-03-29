@@ -1,4 +1,8 @@
 ```
+##Single curve
+python find_curve.py covid-cases-by-source.csv india.csv india
+
+##Mltiple Curves
 #Generate the data
 cd data
 python ../split.py covid_confirmed_usafacts.csv
